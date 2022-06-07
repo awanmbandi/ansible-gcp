@@ -4,12 +4,12 @@
 
   tasks:
   - gce:
-      instance_names: {{dev_instance_name}}
-      zone: {{dev_instance_zone}}
-      machine_type: {{dev_machine_type}}
-      image: {{dev_image}}
-      state: {{dev_instance_state}}
-      service_account_email: {{dev_instance_sa}}
+      instance_names: "{{ dev_instance_name }}"
+      zone: "{{ dev_instance_zone }}"
+      machine_type: "{{ dev_machine_type }}"
+      image: "{{ dev_image }}"
+      state: "{{ dev_instance_state }}"
+      service_account_email: "{{ dev_instance_sa }}"
       #credentials_file: "/home/mbandi-google/playbooks/private-sa-key.json"
-      project_id: {{developer_project_id}}
-      disk_size: {{dev_instance_disk_size}}
+      project_id: "{{ developer_project_id }}"
+      disk_size: "{{ dev_instance_disk_size }}"
