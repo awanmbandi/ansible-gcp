@@ -5,8 +5,8 @@
   tasks:
   - name: create a bucket
     gcp_storage_bucket:
-      name: ansible-storage-module-mbandi-awan
-      project: mbandigoogle-dev
+      name: jjtech-gcp-ansible-storage-bucket
+      project: keen-airlock-342704
       auth_kind: serviceaccount
-      service_account_file: "/home/mbandi-google/gcp-batch-project-key.json"
+      #service_account_file: "/home/mbandi-google/gcp-batch-project-key.json"
       state: present
