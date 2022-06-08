@@ -4,12 +4,12 @@
 
   tasks:
   - gce:
-      instance_names: "my-ansible-instance"
+      instance_names: "my-ansible-instance-1"
       zone: "us-central1-a"
       machine_type: "n1-standard-1"
       image: "debian-8"
       state: "present"
-      service_account_email: "ansible-tower@keen-airlock-342704.iam.gserviceaccount.com"
+      service_account_email: "ansible-tower-awan@sonic-wavelet-350400.iam.gserviceaccount.com"
       #credentials_file: "/home/mbandi-google/playbooks/private-sa-key.json"
-      project_id: "keen-airlock-342704"
+      project_id: "sonic-wavelet-350400"
       disk_size: 32
