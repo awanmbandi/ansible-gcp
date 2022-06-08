@@ -6,7 +6,7 @@
   - name: create a bucket
     gcp_storage_bucket:
       name: jjtech-gcp-ansible-storage-bucket
-      project: keen-airlock-342704
+      project: sonic-wavelet-350400
       auth_kind: serviceaccount
       #service_account_file: "/home/mbandi-google/gcp-batch-project-key.json"
       state: present
