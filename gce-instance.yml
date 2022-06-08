@@ -3,7 +3,7 @@
   connection: local
 
   tasks:
-  - gce:
+  - google.cloud.gcp_compute_instance:
       instance_names: my-ansible-instance
       zone: us-central1-a
       machine_type: n1-standard-1
