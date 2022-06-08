@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  connection: local
+
+  tasks:
+  - name: create a bucket
+    gcp_storage_bucket:
+      name: ansible-storage-module-mbandi-awan
+      project: sonic-wavelet-350400
+      auth_kind: serviceaccount
+      service_account_file: "/home/mbandi-google/private-key.json"
+      state: present
