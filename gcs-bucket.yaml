@@ -8,5 +8,5 @@
       name: ansible-storage-module-mbandi-awan
       project: sonic-wavelet-350400
       auth_kind: serviceaccount
-      service_account_file: "/home/mbandi-google/private-key.json"
+      service_account_file: "/home/mbandi-google/gcp-batch-project-key.json"
       state: present
