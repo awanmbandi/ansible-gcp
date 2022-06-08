@@ -6,7 +6,7 @@
   - name: create a bucket
     gcp_storage_bucket:
       name: ansible-storage-module-mbandi-awan
-      project: sonic-wavelet-350400
+      project: mbandigoogle-dev
       auth_kind: serviceaccount
       service_account_file: "/home/mbandi-google/gcp-batch-project-key.json"
       state: present
